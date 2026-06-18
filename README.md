@@ -1,27 +1,27 @@
 # Melody's Quest
-Melody's Quest is an intelligent rhythm game developed based on the PyGame framework. It enables users to import their preferred songs and automatically generates a beatmap for gameplay. The game integrates various Artificial Intelligence concepts such as Agentic AI, Search Algorithms, Fuzzy Logic, and Computer Vision to provide an adaptive and interactive experience.
+Melody's Quest is an intelligent rhythm game developed based on the PyGame framework. It enables users to import their preferred songs and automatically generates a beatmap for gameplay. The game i[...]
 
 ## Features
 - **Intelligent Auto-Play Bot (Uninformed Search - BFS):** An automated bot that uses Breadth-First Search to find the shortest path for lane transitions to hit all active notes perfectly.
 - **Dynamic Bonus Notes (Informed Search - A*):** Dynamically spawns bonus notes using the A* algorithm, considering the player's current hand position and the song's predicted arousal/valence.
 - **Adaptive Difficulty (Fuzzy Logic):** Adjusts the falling speed of notes in real-time based on the player's current combo and the music's energy (arousal).
-- **Hand Tracking Gameplay (Computer Vision):** Play the game using your hands! Utilizes OpenCV and Mediapipe to track index fingers, allowing a camera-based, dual-hand interaction without touching the keyboard.
-- **Machine Learning Mood Detection:** Predicts the arousal and valence of the imported song using Linear Regression and Random Forest models, changing the game's color palette and visualizers to match the mood.
+- **Hand Tracking Gameplay (Computer Vision):** Play the game using your hands! Utilizes OpenCV and Mediapipe to track index fingers, allowing a camera-based, dual-hand interaction without touching[...]
+- **Machine Learning Mood Detection:** Predicts the arousal and valence of the imported song using Linear Regression and Random Forest models, changing the game's color palette and visualizers to m[...]
 - **Automatic Beatmap Generation:** Utilizes music information retrieval techniques (librosa, onset detection, pitch estimation, melody extraction) to generate accurate beatmaps.
 
 ![Demo](# Melody's Quest
-Melody's Quest is an intelligent rhythm game developed based on the PyGame framework. It enables users to import their preferred songs and automatically generates a beatmap for gameplay. The game integrates various Artificial Intelligence concepts such as Agentic AI, Search Algorithms, Fuzzy Logic, and Computer Vision to provide an adaptive and interactive experience.
+Melody's Quest is an intelligent rhythm game developed based on the PyGame framework. It enables users to import their preferred songs and automatically generates a beatmap for gameplay. The game [...]
 
 ## Features
 - **Intelligent Auto-Play Bot (Uninformed Search - BFS):** An automated bot that uses Breadth-First Search to find the shortest path for lane transitions to hit all active notes perfectly.
 - **Dynamic Bonus Notes (Informed Search - A*):** Dynamically spawns bonus notes using the A* algorithm, considering the player's current hand position and the song's predicted arousal/valence.
 - **Adaptive Difficulty (Fuzzy Logic):** Adjusts the falling speed of notes in real-time based on the player's current combo and the music's energy (arousal).
-- **Hand Tracking Gameplay (Computer Vision):** Play the game using your hands! Utilizes OpenCV and Mediapipe to track index fingers, allowing a camera-based, dual-hand interaction without touching the keyboard.
-- **Machine Learning Mood Detection:** Predicts the arousal and valence of the imported song using Linear Regression and Random Forest models, changing the game's color palette and visualizers to match the mood.
+- **Hand Tracking Gameplay (Computer Vision):** Play the game using your hands! Utilizes OpenCV and Mediapipe to track index fingers, allowing a camera-based, dual-hand interaction without touchin[...]
+- **Machine Learning Mood Detection:** Predicts the arousal and valence of the imported song using Linear Regression and Random Forest models, changing the game's color palette and visualizers to [...]
 - **Automatic Beatmap Generation:** Utilizes music information retrieval techniques (librosa, onset detection, pitch estimation, melody extraction) to generate accurate beatmaps.
 
 ![Demo](demo.png)
-![Computer Vision](assets/computer%20vision.jpg).
+![Computer Vision](computer%20vision.png)
 
 
 ## How to run
