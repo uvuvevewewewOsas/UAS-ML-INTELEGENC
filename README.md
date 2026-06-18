@@ -53,25 +53,27 @@ python main.py
 )
 
 ## How to run
-### Prerequisites
-- Python 3.10+
-- A webcam (if you want to use the Computer Vision gameplay feature)
+cara menjalankan game-nya:
 
-1. Install the dependencies
-```bash
+Buka terminal atau command prompt.
+Masuk ke direktori game: cd "c:\Users\Pongo\Downloads\Project UAS ML Intelegent System\game"
+Install semua library yang dibutuhkan dengan perintah:
+bash
+
+
 pip install -r requirements.txt
-```
+Setelah instalasi selesai, jalankan game-nya dengan perintah:
+bash
 
-2. Run the game
-```bash
+
 python main.py
-```
+Sebuah jendela dialog akan muncul, pilih file lagu .wav atau .mp3 yang ingin Anda mainkan.
+Kontrol di dalam game:
 
-3. Select your music file (`.wav` or `.mp3`) when the file dialog appears.
-4. **Controls In-Game:**
-   - **Keyboard Mode:** `A`, `S`, `K`, `L` for the 4 lanes.
-   - **Camera Mode:** Press `C` to toggle the camera overlay and use your index fingers to play!
-   - **Auto-Play Bot:** Press `B` to activate the BFS bot and watch it play automatically.
+Keyboard: Tekan A, S, K, L untuk 4 lane.
+Kamera (Computer Vision): Tekan C untuk mengaktifkan pelacakan tangan, dan gerakkan jari telunjuk Anda ke layar.
+Auto-Play Bot: Tekan B untuk mengaktifkan BFS bot yang akan bermain secara otomatis.
+
 
 ## Details
 1. **main.py:** The main program of the rhythm game integrating PyGame, ML models, AI Agents, and OpenCV.
