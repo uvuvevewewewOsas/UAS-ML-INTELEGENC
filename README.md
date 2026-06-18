@@ -23,7 +23,8 @@ Melody's Quest is an intelligent rhythm game developed based on the PyGame frame
 ![Demo](demo.png)
 ![Computer Vision](computer%20vision.png)
 
-
+## How to run
+...
 ## How to run
 ### Prerequisites
 - Python 3.10+
