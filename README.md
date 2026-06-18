@@ -21,6 +21,8 @@ Melody's Quest is an intelligent rhythm game developed based on the PyGame frame
 - **Automatic Beatmap Generation:** Utilizes music information retrieval techniques (librosa, onset detection, pitch estimation, melody extraction) to generate accurate beatmaps.
 
 ![Demo](demo.png)
+![Computer Vision](computer vision.png).
+
 
 ## How to run
 ### Prerequisites
